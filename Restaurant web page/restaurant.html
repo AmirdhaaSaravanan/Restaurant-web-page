@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant web page</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <div class="topa">
+    <nav>
+        <a class="but" href="#contact1">Message</a>
+        <a class="but" href="#prebook">PreBook</a>
+        <a class="but" href="#menu1">Menu</a>
+            <a class="but" href="#intro1">Intro</a>
+            <br><br>
+        </nav>
+        </div>
+    <h1 class="he">Pizza Corner</h1>
+    <h2 class="hea">Bites That Delight</h2>
+    <div>    <a href="#" class="anc">Explore now</a></div><br><br>
+    <div class="intro" id="intro1">
+        <img src="chef.jpg" class="chef" width="400" height="500"><br><br>
+        <h2 class="head">A Brief Introduction</h2>
+        <section>
+        <p>Welcome to Pizza Corner, the ultimate destination for food enthusiasts in the heart of 
+            Chennai. Our commitment to Italian cuisine is evident in every aspect of our dining experience, 
+            from our thoughtfully curated menu to our inviting atmosphere. Each dish is meticulously crafted 
+            by our talented chefs, who prioritize fresh, locally sourced ingredients to ensure the highest 
+            quality and flavor.
+        </p>
+        <p>
+             At Pizza Corner, we believe in celebrating the art of cooking, which is why our menu features
+              a blend of traditional favorites and innovative creations, perfect for both adventurous palates
+               and those seeking comfort in familiar tastes. Whether you're joining us for a snack, party or 
+               a special celebration, our dedicated staff is here to provide impeccable service that makes 
+               every visit memorable.
+        </p>
+        <p>
+            We invite you to delve into a dining experience that not only satisfies your hunger but also 
+            creates lasting memories. Come and discover why Pizza Corner is the ultimate choice for 
+            an unforgettable pizzas in Rameswaram.
+        </p>
+        </section><br><br>
+    </div id="menu1">
+    <br><br><br><br><h2 class="hea">Mouthwatering Pizzas to Taste</h2><br><br><br>
+    </div>
+    <div class="intro">
+        <h2 class="head">Menu</h2>
+        <div class="menu">
+        <div class="box">
+        <img src="cheese pizza.webp" width="300" height="200">
+        <p>Cheese pizza</p>
+        <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class="box">
+        <img src="veggie pizza.webp" width="300" height="200">
+        <p>Veggie pizza</p>
+        <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class="box">
+        <img src="pepperoni pizza.webp" width="300" height="200">
+        <p>Pepperoni pizza</p>
+        <a href="order.html" class="order">Order Now</a>
+        </div></div>
+        <div class="menu">
+        <div class= box>
+            <img src="meat pizza.webp" width="300" height="200">
+            <p>Meat Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class= box>
+            <img src="margherita pizza.webp" width="300" height="200">
+            <p>Margherita Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class= box>
+            <img src="bbq chicken pizza.webp" width="300" height="200">
+            <p>BBQ Chicken Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div></div>
+        <div class="menu">
+        <div class= box>
+            <img src="Hawaiian pizza.webp" width="300" height="200">
+            <p>Hawaiian Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class= box>
+            <img src="Buffalo pizza.webp" width="300" height="200">
+            <p>Buffalo Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class= box>
+            <img src="Supreme pizza.webp" width="300" height="200">
+            <p>Supreme Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div></div>
+        <div class="menu">
+        <div class= box>
+            <img src="The works pizza.webp" width="300" height="200">
+            <p>The Works Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class= box>
+            <img src="mushroom pizza.jfif" width="300" height="200">
+            <p>Mushroom Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div>
+        <div class= "box">
+            <img src="panner makhani pizza.jfif" width="300" height="200">
+            <p>Panner Makhani Pizza</p>
+            <a href="order.html" class="order">Order Now</a>
+        </div>
+    </div>
+    </div>
+    <div id="prebook">
+        <br><br>
+        <h2 class="hea">Prebook for a Delightful Family party</h2><br><br>
+    </div>
+    <div class="intro">
+        <h2 class="head">Book Your Date</h2>
+        <table>
+            <tr><td><label for="name">Name</label></td>
+            <td><input type="text" class="inp" id="name"></td></tr>
+        <tr><td><label for="da">Date</label></td>
+        <td><input type="date" id="da" class="inp"></td></tr>
+        <tr>
+            <td><label for="ti">Time</label></td>
+            <td><input type="time" class="inp"></td>
+        </tr>
+        <tr><td><label for="members">Number of Members</label></td>
+            <td><input type="number" class="inp"></td></tr>
+            <tr><td><labele for="type">Class</label></td>
+            <td>
+                <select>
+                    <option hidden>Select class</option>
+                    <option>A/C</option>
+                    <option>Non A/C</option>
+                    <option>Lawn</option>
+                </select>
+            </td></tr>
+            <tr><td><label >Do You Want To PreOrder?</label></td>
+            <td><input type="radio" id="check" onclick="enable()" name="sel"><label>Yes</label>
+                <input type="radio" name="sel"><label>No</label></td></tr>
+                <tr>
+                   <td><a href="order.html" ><button disabled="true" id="btn" class="as" onclick="enable()">Order</button></a></td>
+                   <td><input type="submit" class="as"></td>
+                </tr>
+            </table>
+    </div>
+    <div id="contact1">
+        <br><br>
+        <h2 class="hea">Keep In Touch With Us</h2>
+        <br><br>
+    </div>
+    <div class="intro">
+        <section>
+            <h2 class="head">Contact Us</h2><hr>
+            <img class="con" src="phone.png" alt="#">  7812880450 <br><br>
+            <img class="con" src="mail.webp">   pizzacorner@gmail.com<br><br>
+            <img class="con" src="location.png">   Erode,Tamil Nadu <br><br>
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+            <td><input type="text" placeholder="Name" id="name" class="contact"></td></tr>
+            <tr>
+                <td><label for="mail">Email</label></td>
+                <td><input type="email" placeholder="Email" id="mail"class="contact"></td></tr>
+                <tr><td><label for="message">Feedback</label></td>
+            <td><textarea type="text" placeholder="Message"></textarea></td></tr>
+            <tr><td><button type="button"> Send Message</button></td></tr>
+        </section>
+    </div>
+</body>
+<script>
+    function enable(){
+        var check=document.getElementById("check");
+        var btn=document.getElementById("btn");
+        if(check.checked){
+            btn.removeAttribute("disabled");
+        }
+        else{
+            btn.disabled="true";
+        }
+    }
+</script>
+</html>

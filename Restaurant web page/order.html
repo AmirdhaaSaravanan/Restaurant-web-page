@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Pizzas</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <center><div class="fro">
+    <h2 class="del">Order For The Delicious Pizza</h2>
+    <table align="center">
+        <tr>
+    <td><label for="name">Enter your Name</label></td>
+    <td><input type="text"  placeholder="Name" id="name" class="name"></td></tr>
+    <tr>
+    <td><label>Type of Pizza</label></td>
+    <td><select required>
+        <option vlaue="" hidden>Choose any pizza</option>
+        <option value="Cheese pizza">Cheese pizza</option>
+        <option value="Veggie pizza">Veggie pizza</option>
+        <option value="Pepperoni pizza">Pepperoni pizza</option>
+        <option value="Meat Pizza">Meat Pizza</option>
+        <option value="Margherita Pizza">Margherita Pizza</option>
+        <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+        <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+        <option value="Buffalo Pizza">Buffalo Pizza</option>
+        <option value="Supreme Pizza">Supreme Pizza</option>
+        <option value="The Works Pizza">The Works Pizza</option>
+        <option value="Mushroom Pizza">Mushroom Pizza</option>
+        <option value="Panner Makhani Pizza">Panner Makhani Pizza</option>
+    </select></td></tr>
+    <tr>
+    <td><label>Size</label></td>
+    <td><select required>
+            <option value="" hidden>Choose the size</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select></td></tr>
+    <tr><td><label>Type of Payment</label></td>
+    <td><select>
+            <option value="" hidden >Payment Mode</option>
+            <option value="credit">Credit Card</option>
+            <option value="debit">Debit Card</option>
+            <option value="upi">UPI</option>
+            <option value="cash">Cash on delivery</option>
+        </select></td></tr>
+    <tr><td><label for="address">Address</label></td>
+    <td><textarea class="are" type="textarea" placeholder="Address" required id="address"></textarea></td></tr>
+    <tr><td><input type="submit" class="sub"></td></tr>
+    </table>
+    </div></center>
+</body> 
+</html>
